@@ -1,0 +1,50 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app-container {
+  display: flex;
+}
+
+.content {
+  width: 100%;
+}
+
+.sidebar {
+  height: 800px;
+}
+
+.post-card {
+  margin: 20px 40px;
+  min-width: 50px;
+}
+
+.hash-tag {
+  margin: 0 3px;
+}
+
+.reactions {
+  margin: 20px 0;
+}
+
+.create-post {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 50px;
+  min-width: 200px;
+}
+
+.welcome-message {
+  text-align: center;
+  margin: 100px 0;
+}
+
+.server-btn {
+  margin: 20px;
+}
+
+.spinner {
+  margin: 200px 0;
+}
+
